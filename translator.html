@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="header-title">Language Translator</h1>
+    </header>
+    <section class="project-description">
+        <h2>Real Time Language Translator for Travel Industry</h2>
+        <p>
+            Welcome to our Real Time Language Translator for the Travel Industry. This translator leverages Machine Learning, Natural Language Processing (NLP), and Sentimental Analysis to provide accurate and context-aware translations. We have integrated Google
+            Translator scripts to enhance the quality of translations, especially for sentiment analysis and overviews.
+        </p>
+        <h3>How it Works?</h3>
+        <p>
+            Our translator works by analyzing the input text using advanced machine learning algorithms and NLP techniques. It then performs sentiment analysis to understand the emotional tone of the text. The integration of Google Translator ensures that our translations
+            are highly accurate and contextually relevant.
+        </p>
+    </section>
+    <section class="try-translator">
+        <h2>Try Our Translator</h2>
+        <p>Experience the power of our real-time language translator. Enter text and select the target language to see accurate translations.</p>
+        <form id="translator-form">
+            <div class="translator-input">
+                <label for="text">Enter the Text</label>
+                <input type="text" id="text" required>
+            </div>
+            <div class="translator-input">
+                <label for="target-language">Select Target Language</label>
+                <select id="target-language" required>
+                    <!-- Language options will be populated dynamically using JavaScript -->
+                </select>
+            </div>
+            <button type="submit" id="translate-button">Translate</button>
+        </form>
+        <div id="translated-text"></div>
+    </section>
+    <section class="comments-feedback">
+        <div class="comments">
+            <h2>Add a Comment</h2>
+            <!-- Your comment form can go here -->
+        </div>
+        <div class="feedback">
+            <h2>Give Feedback</h2>
+            <a href="https://gmail.com/tagkanagalingam123@gmail.com" target="_blank" id="feedback-link">Send Feedback</a>
+        </div>
+    </section>
+    <footer>
+        <div class="social-links">
+            <a href="#"><img src="mail-icon.png" alt="Email"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="github-icon.png" alt="GitHub"></a>
+        </div>
+        <p>&copy; TM Sigma</p>
+    </footer>
+    <script src="translator.js"></script>
+</body>
+
+</html>

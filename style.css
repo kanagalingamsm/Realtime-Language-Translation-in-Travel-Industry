@@ -1,0 +1,121 @@
+/* Reset some default styles */
+
+body,
+h1,
+p,
+label,
+select,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Set a background image or color */
+
+body {
+    background: linear-gradient(to bottom, #87CEEB, #e1e3e5);
+    font-family: "TT Norms", sans-serif;
+    color: #333;
+    font-size: small;
+}
+
+
+/* Header styles */
+
+.main-header {
+    background-color: rgba(0, 153, 255, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header-title {
+    font-size: 64px;
+    /* Increased font size for an impactful header */
+    margin-bottom: 20px;
+    font-weight: bold;
+    /* Added bold font */
+    text-transform: uppercase;
+    /* Uppercase text */
+    letter-spacing: 4px;
+    /* Adjust letter spacing */
+}
+
+
+/* Main content styles */
+
+.project-description,
+.try-translator,
+.comments-feedback {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.project-description h2,
+.try-translator h2,
+.comments-feedback h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    /* Added bold font */
+    text-transform: uppercase;
+    /* Uppercase text */
+    letter-spacing: 2px;
+    /* Adjust letter spacing */
+}
+
+.project-description p,
+.try-translator p,
+.comments-feedback p {
+    font-size: 14px;
+    /* Slightly reduced font size */
+    line-height: 1.5;
+}
+
+.project-description h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+/* Form styles (unchanged from previous CSS) */
+
+
+/* Translated text styles (unchanged from previous CSS) */
+
+
+/* Footer styles */
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: rgba(0, 153, 255, 0.8);
+    color: #fff;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-start;
+    /* Align left */
+    align-items: center;
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 20px;
+    /* Adjust spacing */
+    text-decoration: none;
+}
+
+.social-links a:last-child {
+    margin-right: 0;
+}
+
+
+/* Responsive design for smaller screens (unchanged from previous CSS) */
